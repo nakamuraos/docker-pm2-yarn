@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "example-app-production",
+      "script": "./bin/www",
+      "instances": 0,
+      "exec_mode": "cluster",
+      "merge_logs": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
